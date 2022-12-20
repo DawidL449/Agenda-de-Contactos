@@ -44,4 +44,20 @@ body{
     outline: 0;
     height: 3rem;
     border-radius: 5px;
+    text-transform: uppercase;
+    color:white;
+}
+.listado-tareas{
+    display: flex;
+    flex-direction: column;
+}
+.tarea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4rem;
+}
+.icono{
+    color: tomato;
+    cursor: pointer;
 }
